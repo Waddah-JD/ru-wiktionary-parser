@@ -13,7 +13,9 @@
     "build:dev:watch": "npm run build:dev -- --watch",
     "build:prod": "npm run clean && tsc -p tsconfig.prod.json",
     "test": "jest",
-    "test:watch": "npm run test -- --watchAll"
+    "test:unit": "npm run test -- --testMatch \"**/*.unit.test.ts\"",
+    "test:unit:watch": "npm run test:unit -- --watchAll",
+    "test:e2e": "npm run test -- --testMatch \"**/*.e2e.test.ts\""
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",
