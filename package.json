@@ -2,6 +2,8 @@
   "name": "ru-wiktionary-parser",
   "version": "0.0.0",
   "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
     "clean": "rm -rf build",
     "format": "prettier . --write",
@@ -9,17 +11,27 @@
     "lint:fix": "npm run lint -- --fix",
     "build:dev": "npm run clean && tsc -p tsconfig.dev.json",
     "build:dev:watch": "npm run build:dev -- --watch",
-    "build:prod": "npm run clean && tsc -p tsconfig.prod.json"
+    "build:prod": "npm run clean && tsc -p tsconfig.prod.json",
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",
+    "@jest/globals": "^30.1.2",
+    "@types/jest": "^30.0.0",
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^24.3.1",
     "eslint": "^9.35.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-unused-imports": "^4.2.0",
     "globals": "^16.4.0",
+    "jest": "^30.1.3",
     "prettier": "^3.6.2",
+    "ts-jest": "^29.4.1",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.43.0"
+  },
+  "dependencies": {
+    "jsdom": "^27.0.0"
   }
 }
