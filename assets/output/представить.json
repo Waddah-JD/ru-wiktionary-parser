@@ -1,0 +1,28 @@
+{
+  "past": {
+    "masculine": "предста́вил",
+    "feminine": "предста́вила",
+    "neuter": "предста́вило",
+    "plural": "предста́вили"
+  },
+  "present": {
+    "singular1st": null,
+    "singular2nd": null,
+    "singular3rd": null,
+    "plural1st": null,
+    "plural2nd": null,
+    "plural3rd": null
+  },
+  "future": {
+    "singular1st": "предста́влю",
+    "singular2nd": "предста́вишь",
+    "singular3rd": "предста́вит",
+    "plural1st": "предста́вим",
+    "plural2nd": "предста́вите",
+    "plural3rd": "предста́вят"
+  },
+  "imperative": { "singular": "предста́вь", "plural": "предста́вьте" },
+  "participle": { "past": "предста́вивший", "present": null },
+  "adverbialParticiple": { "past": ["предста́вив", "предста́вивши"], "present": null },
+  "passiveParticiple": { "past": "предста́вленный", "present": null }
+}
