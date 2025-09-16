@@ -1,0 +1,25 @@
+{
+  "past": { "masculine": "мо́г", "feminine": "могла́", "neuter": "могло́", "plural": "могли́" },
+  "present": {
+    "singular1st": "могу́",
+    "singular2nd": "мо́жешь",
+    "singular3rd": "мо́жет",
+    "plural1st": "мо́жем",
+    "plural2nd": "мо́жете",
+    "plural3rd": "мо́гут"
+  },
+  "future": {
+    "singular1st": "бу́ду мо́чь",
+    "singular2nd": "бу́дешь мо́чь",
+    "singular3rd": "бу́дет мо́чь",
+    "plural1st": "бу́дем мо́чь",
+    "plural2nd": "бу́дете мо́чь",
+    "plural3rd": "бу́дут мо́чь"
+  },
+  "imperative": { "singular": "моги́", "plural": "моги́те" },
+  "participles": {
+    "active": { "past": "мо́гший", "present": "могу́щий" },
+    "passive": { "past": null, "present": null },
+    "adverbial": { "past": [], "present": null }
+  }
+}

@@ -5,7 +5,7 @@ import { parseVerbWebpage } from "../src/parseVerb.js";
 import { ConjugatedVerb } from "../src/types.js";
 
 describe(parseVerbWebpage.name, function () {
-  test.each<string>(["использовать", "пить", "представить", "уходить"])(
+  test.each<string>(["быть", "использовать", "мочь", "пить", "представить", "уходить"])(
     'should parse "%s" properly',
     async function (verb) {
       const inputFilePath = path.join("assets", "input", `${verb}.html`);
