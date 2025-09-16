@@ -14,15 +14,17 @@
     "plural3rd": "испо́льзуют"
   },
   "future": {
-    "singular1st": "испо́льзую",
-    "singular2nd": "испо́льзуешь",
-    "singular3rd": "испо́льзует",
-    "plural1st": "испо́льзуем",
-    "plural2nd": "испо́льзуете",
-    "plural3rd": "испо́льзуют"
+    "singular1st": "бу́ду испо́льзовать",
+    "singular2nd": "бу́дешь испо́льзовать",
+    "singular3rd": "бу́дет испо́льзовать",
+    "plural1st": "бу́дем испо́льзовать",
+    "plural2nd": "бу́дете испо́льзовать",
+    "plural3rd": "бу́дут испо́льзовать"
   },
   "imperative": { "singular": "испо́льзуй", "plural": "испо́льзуйте" },
-  "participle": { "past": "испо́льзовавший", "present": "испо́льзующий" },
-  "adverbialParticiple": { "past": ["испо́льзовав", "испо́льзовавши"], "present": "испо́льзуя" },
-  "passiveParticiple": { "past": "испо́льзованный", "present": "испо́льзуемый" }
+  "participles": {
+    "active": { "past": "испо́льзовавший", "present": "испо́льзующий" },
+    "passive": { "past": "испо́льзованный", "present": "испо́льзуемый" },
+    "adverbial": { "past": ["испо́льзовав", "испо́льзовавши"], "present": "испо́льзуя" }
+  }
 }

@@ -25,13 +25,9 @@
     "singular": "уходи́",
     "plural": "уходи́те"
   },
-  "participle": {
-    "past": "уходи́вший",
-    "present": "уходя́щий"
-  },
-  "adverbialParticiple": {
-    "past": ["уходи́в", "уходи́вши"],
-    "present": "уходя́"
-  },
-  "passiveParticiple": { "past": null, "present": null }
+  "participles": {
+    "active": { "past": "уходи́вший", "present": "уходя́щий" },
+    "adverbial": { "past": ["уходи́в", "уходи́вши"], "present": "уходя́" },
+    "passive": { "past": null, "present": null }
+  }
 }

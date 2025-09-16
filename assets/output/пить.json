@@ -22,7 +22,9 @@
     "plural3rd": "бу́дут пи́ть"
   },
   "imperative": { "singular": "пе́й", "plural": "пе́йте" },
-  "participle": { "past": "пи́вший", "present": "пью́щий" },
-  "adverbialParticiple": { "past": ["пи́в", "пи́вши"], "present": null },
-  "passiveParticiple": { "past": "пи́тый", "present": null }
+  "participles": {
+    "active": { "past": "пи́вший", "present": "пью́щий" },
+    "passive": { "past": "пи́тый", "present": null },
+    "adverbial": { "past": ["пи́в", "пи́вши"], "present": null }
+  }
 }

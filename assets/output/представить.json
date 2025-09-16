@@ -22,7 +22,9 @@
     "plural3rd": "предста́вят"
   },
   "imperative": { "singular": "предста́вь", "plural": "предста́вьте" },
-  "participle": { "past": "предста́вивший", "present": null },
-  "adverbialParticiple": { "past": ["предста́вив", "предста́вивши"], "present": null },
-  "passiveParticiple": { "past": "предста́вленный", "present": null }
+  "participles": {
+    "active": { "past": "предста́вивший", "present": null },
+    "adverbial": { "past": ["предста́вив", "предста́вивши"], "present": null },
+    "passive": { "past": "предста́вленный", "present": null }
+  }
 }

@@ -25,16 +25,9 @@ export type ConjugatedVerb = {
     singular: string | null;
     plural: string | null;
   };
-  participle: {
-    past: string | null; // причастие прошедшего времени
-    present: string | null; // причастие настоящего времени
-  };
-  passiveParticiple: {
-    past: string | null; // страдательное причастие прошедшего времени
-    present: string | null; // страдательное причастие настоящего времени
-  };
-  adverbialParticiple: {
-    past: string[] | null; // деепричастие прошедшего времени
-    present: string | null; // деепричастие настоящего времени
+  participles: {
+    active: { past: string | null; present: string | null };
+    passive: { past: string | null; present: string | null };
+    adverbial: { past: string[] | null; present: string | null };
   };
 };
