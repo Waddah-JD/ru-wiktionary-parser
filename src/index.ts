@@ -1,3 +1,5 @@
+import parseAdjective from "./parseAdjective.js";
 import parseVerb from "./parseVerb.js";
 
-export default { parseVerb };
+export { parseAdjective, parseVerb };
+export { AdjectiveDeclension, VerbConjugation } from "./types.js";

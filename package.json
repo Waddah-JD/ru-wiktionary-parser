@@ -4,6 +4,18 @@
   "type": "module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "license": "MIT",
+  "author": "Waddah-JD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Waddah-JD/ru-wiktionary-parser"
+  },
+  "keywords": [
+    "ru",
+    "wiktionary",
+    "ru-lang",
+    "russian"
+  ],
   "scripts": {
     "clean": "rm -rf build",
     "format": "prettier . --write",
