@@ -1,0 +1,18 @@
+{
+  "nominative": { "masculine": "кото́рый", "feminine": "кото́рая", "neuter": "кото́рое", "plural": "кото́рые" },
+  "genitive": { "masculine": "кото́рого", "feminine": "кото́рой", "neuter": "кото́рого", "plural": "кото́рых" },
+  "dative": { "masculine": "кото́рому", "feminine": "кото́рой", "neuter": "кото́рому", "plural": "кото́рым" },
+  "accusative": {
+    "masculine": { "animate": "кото́рого", "inanimate": "кото́рый" },
+    "feminine": "кото́рую",
+    "neuter": "кото́рое",
+    "plural": { "animate": "кото́рых", "inanimate": "кото́рые" }
+  },
+  "instrumental": {
+    "masculine": "кото́рым",
+    "feminine": ["кото́рой", "кото́рою"],
+    "neuter": "кото́рым",
+    "plural": "кото́рыми"
+  },
+  "prepositional": { "masculine": "кото́ром", "feminine": "кото́рой", "neuter": "кото́ром", "plural": "кото́рых" }
+}

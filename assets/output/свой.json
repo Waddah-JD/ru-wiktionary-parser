@@ -1,0 +1,13 @@
+{
+  "nominative": { "masculine": "свой", "feminine": "своя́", "neuter": "своё", "plural": "свои́" },
+  "genitive": { "masculine": "своего́", "feminine": "свое́й", "neuter": "своего́", "plural": "свои́х" },
+  "dative": { "masculine": "своему́", "feminine": "свое́й", "neuter": "своему́", "plural": "свои́м" },
+  "accusative": {
+    "masculine": { "animate": "своего́", "inanimate": "свой" },
+    "feminine": "свою́",
+    "neuter": "своё",
+    "plural": { "animate": "свои́х", "inanimate": "свои́" }
+  },
+  "instrumental": { "masculine": "свои́м", "feminine": ["свое́й", "свое́ю"], "neuter": "свои́м", "plural": "свои́ми" },
+  "prepositional": { "masculine": "своём", "feminine": "свое́й", "neuter": "своём", "plural": "свои́х" }
+}
