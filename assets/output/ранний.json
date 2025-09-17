@@ -1,0 +1,13 @@
+{
+  "nominative": { "masculine": "ра́нний", "feminine": "ра́нняя", "neuter": "ра́ннее", "plural": "ра́нние" },
+  "genitive": { "masculine": "ра́ннего", "feminine": "ра́нней", "neuter": "ра́ннего", "plural": "ра́нних" },
+  "dative": { "masculine": "ра́ннему", "feminine": "ра́нней", "neuter": "ра́ннему", "plural": "ра́нним" },
+  "accusative": {
+    "masculine": { "animate": "ра́ннего", "inanimate": "ра́нний" },
+    "feminine": "ра́ннюю",
+    "neuter": "ра́ннее",
+    "plural": { "animate": "ра́нних", "inanimate": "ра́нние" }
+  },
+  "instrumental": { "masculine": "ра́нним", "feminine": ["ра́нней", "ра́ннею"], "neuter": "ра́нним", "plural": "ра́нними" },
+  "prepositional": { "masculine": "ра́ннем", "feminine": "ра́нней", "neuter": "ра́ннем", "plural": "ра́нних" }
+}

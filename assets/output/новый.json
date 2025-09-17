@@ -1,0 +1,13 @@
+{
+  "nominative": { "masculine": "но́вый", "feminine": "но́вая", "neuter": "но́вое", "plural": "но́вые" },
+  "genitive": { "masculine": "но́вого", "feminine": "но́вой", "neuter": "но́вого", "plural": "но́вых" },
+  "dative": { "masculine": "но́вому", "feminine": "но́вой", "neuter": "но́вому", "plural": "но́вым" },
+  "accusative": {
+    "masculine": { "animate": "но́вого", "inanimate": "но́вый" },
+    "feminine": "но́вую",
+    "neuter": "но́вое",
+    "plural": { "animate": "но́вых", "inanimate": "но́вые" }
+  },
+  "instrumental": { "masculine": "но́вым", "feminine": ["но́вой", "но́вою"], "neuter": "но́вым", "plural": "но́выми" },
+  "prepositional": { "masculine": "но́вом", "feminine": "но́вой", "neuter": "но́вом", "plural": "но́вых" }
+}

@@ -31,3 +31,17 @@ export type ConjugatedVerb = {
     adverbial: { past: string[] | null; present: string | null };
   };
 };
+
+export type AdjectiveDeclension = {
+  nominative: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
+  genitive: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
+  dative: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
+  accusative: {
+    masculine: { animate: string | null; inanimate: string | null };
+    feminine: string | null;
+    neuter: string | null;
+    plural: { animate: string | null; inanimate: string | null };
+  };
+  instrumental: { masculine: string | null; feminine: string[]; neuter: string | null; plural: string | null };
+  prepositional: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
+};
