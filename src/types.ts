@@ -1,4 +1,4 @@
-export type ConjugatedVerb = {
+export type VerbConjugation = {
   past: {
     masculine: string | null;
     feminine: string | null;

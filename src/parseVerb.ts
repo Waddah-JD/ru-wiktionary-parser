@@ -1,10 +1,10 @@
 import { JSDOM } from "jsdom";
 
-import { ConjugatedVerb } from "./types.js";
+import { VerbConjugation } from "./types.js";
 import { getRussianFutureTenseFromImperfectiveForm } from "./utils/ru.js";
 import getWebpageHtmlContent from "./utils/wiktionary.js";
 
-async function parseVerb(verb: string): Promise<ConjugatedVerb> {
+async function parseVerb(verb: string): Promise<VerbConjugation> {
   const html = await getWebpageHtmlContent(verb);
 
   return parseVerbWebpage(html);
@@ -12,8 +12,8 @@ async function parseVerb(verb: string): Promise<ConjugatedVerb> {
 
 export default parseVerb;
 
-export async function parseVerbWebpage(html: string): Promise<ConjugatedVerb> {
-  const result: ConjugatedVerb = {
+export async function parseVerbWebpage(html: string): Promise<VerbConjugation> {
+  const result: VerbConjugation = {
     past: { masculine: null, feminine: null, neuter: null, plural: null },
     present: {
       singular1st: null,
@@ -45,7 +45,7 @@ export async function parseVerbWebpage(html: string): Promise<ConjugatedVerb> {
   if (!table) return result;
 
   const infinitive = getFirstElementTextFromTableCell(".Cyrl.form-of.lang-ru.inf-form-of");
-  let futureConjugations: ConjugatedVerb["future"] | null = null;
+  let futureConjugations: VerbConjugation["future"] | null = null;
   if (infinitive) {
     futureConjugations = getRussianFutureTenseFromImperfectiveForm(infinitive);
   }
