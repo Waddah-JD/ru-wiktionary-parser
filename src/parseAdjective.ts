@@ -3,8 +3,8 @@ import { JSDOM } from "jsdom";
 import { AdjectiveDeclension } from "./types.js";
 import getWebpageHtmlContent from "./utils/wiktionary.js";
 
-async function parseAdjective(verb: string): Promise<AdjectiveDeclension> {
-  const html = await getWebpageHtmlContent(verb);
+async function parseAdjective(adjective: string): Promise<AdjectiveDeclension> {
+  const html = await getWebpageHtmlContent(adjective);
 
   return parseAdjectiveWebpage(html);
 }
