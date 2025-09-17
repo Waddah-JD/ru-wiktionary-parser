@@ -1,0 +1,15 @@
+.github
+.vscode
+assets
+bin
+node_modules
+src
+tests
+.gitignore
+.prettierrc.json
+CHANGELOG.md
+eslint.config.js
+jest.config.js
+LICENSE
+*.local.md
+tsconfig*
