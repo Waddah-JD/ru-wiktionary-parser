@@ -1,0 +1,10 @@
+{
+  "nominative": { "singular": "го́д", "plural": "го́ды" },
+  "genitive": { "singular": "го́да", "plural": "годо́в" },
+  "dative": { "singular": "го́ду", "plural": "года́м" },
+  "accusative": { "singular": "го́д", "plural": "го́ды" },
+  "instrumental": { "singular": "го́дом", "plural": "года́ми" },
+  "prepositional": { "singular": "го́де", "plural": "года́х" },
+  "locative": "в году́",
+  "partitive": "го́ду"
+}
