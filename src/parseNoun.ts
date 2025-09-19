@@ -40,6 +40,24 @@ export async function parseNounWebpage(html: string): Promise<NounDeclension> {
   result.partitive = getFirstElementTextFromTableCell(".lang-ru.par\\|s-form-of");
   result.locative = document?.querySelector(".lang-ru.loc\\|s-form-of")?.textContent?.trim() || null;
 
+  /// for nous that can be only in plural form (example: деньги)
+  const nominative = getFirstElementTextFromTableCell(".lang-ru.nom-form-of");
+  if (nominative) result.nominative.plural = nominative;
+  const genitive = getFirstElementTextFromTableCell(".lang-ru.gen-form-of");
+  if (genitive) result.genitive.plural = genitive;
+  const dative = getFirstElementTextFromTableCell(".lang-ru.dat-form-of");
+  if (dative) result.dative.plural = dative;
+  const accusative = getFirstElementTextFromTableCell(".lang-ru.acc-form-of");
+  if (accusative) result.accusative.plural = accusative;
+  const instrumental = getFirstElementTextFromTableCell(".lang-ru.ins-form-of");
+  if (instrumental) result.instrumental.plural = instrumental;
+  const prepositional = getFirstElementTextFromTableCell(".lang-ru.pre-form-of");
+  if (prepositional) result.prepositional.plural = prepositional;
+  const partitive = getFirstElementTextFromTableCell(".lang-ru.par-form-of");
+  if (partitive) result.partitive = partitive;
+  const locative = getFirstElementTextFromTableCell(".lang-ru.loc-form-of");
+  if (locative) result.locative = locative;
+
   return result;
 
   function getFirstElementTextFromTableCell(selector: string): string | null {
