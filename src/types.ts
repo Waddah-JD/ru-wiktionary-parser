@@ -45,3 +45,14 @@ export type AdjectiveDeclension = {
   instrumental: { masculine: string | null; feminine: string[]; neuter: string | null; plural: string | null };
   prepositional: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
 };
+
+export type NounDeclension = {
+  nominative: { singular: string | null; plural: string | null };
+  genitive: { singular: string | null; plural: string | null };
+  dative: { singular: string | null; plural: string | null };
+  accusative: { singular: string | null; plural: string | null };
+  instrumental: { singular: string | null; plural: string | null };
+  prepositional: { singular: string | null; plural: string | null };
+  partitive: string | null;
+  locative: string | null;
+};
