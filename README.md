@@ -5,9 +5,18 @@ Russian-Language Wiktionary parser
 ## Documentation
 
 ```ts
-import { parseAdjective, parseVerb, AdjectiveDeclension, VerbConjugation } from "ru-wiktionary-parser";
+import {
+  parseAdjective,
+  parseNoun,
+  parseVerb,
+  AdjectiveDeclension,
+  NounDeclension,
+  VerbConjugation,
+} from "ru-wiktionary-parser";
 
 function parseAdjective(adjective: string): Promise<AdjectiveDeclension>;
+
+function parseNoun(noun: string): Promise<NounDeclension>;
 
 function parseVerb(verb: string): Promise<VerbConjugation>;
 ```
