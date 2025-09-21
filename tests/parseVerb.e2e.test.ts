@@ -1,6 +1,7 @@
 import { readFile } from "fs/promises";
 import path from "path";
 
+import { UnparsableWordError } from "../src/errors.js";
 import parseVerb from "../src/parseVerb.js";
 
 describe(parseVerb.name, function () {
@@ -15,4 +16,8 @@ describe(parseVerb.name, function () {
       expect(actual).toStrictEqual(expected);
     },
   );
+
+  it("should throw an error if couldn't parse word", async function () {
+    await expect(parseVerb("ощибка")).rejects.toThrow(UnparsableWordError);
+  });
 });

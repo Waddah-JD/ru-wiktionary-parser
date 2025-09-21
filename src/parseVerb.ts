@@ -8,7 +8,7 @@ import { getAccentedWord, getWebpageHtmlContent } from "./utils/wiktionary.js";
 async function parseVerb(verb: string): Promise<Verb> {
   try {
     const html = await getWebpageHtmlContent(verb);
-    return parseVerbWebpage(html);
+    return await parseVerbWebpage(html);
   } catch {
     throw new UnparsableWordError(verb);
   }

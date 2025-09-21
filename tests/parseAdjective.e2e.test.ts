@@ -1,6 +1,7 @@
 import { readFile } from "fs/promises";
 import path from "path";
 
+import { UnparsableWordError } from "../src/errors.js";
 import parseAdjective from "../src/parseAdjective.js";
 
 describe(parseAdjective.name, function () {
@@ -15,4 +16,8 @@ describe(parseAdjective.name, function () {
       expect(actual).toStrictEqual(expected);
     },
   );
+
+  it("should throw an error if couldn't parse word", async function () {
+    await expect(parseAdjective("ощибка")).rejects.toThrow(UnparsableWordError);
+  });
 });

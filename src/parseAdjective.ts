@@ -7,7 +7,7 @@ import { getAccentedWord, getWebpageHtmlContent } from "./utils/wiktionary.js";
 async function parseAdjective(adjective: string): Promise<Adjective> {
   try {
     const html = await getWebpageHtmlContent(adjective);
-    return parseAdjectiveWebpage(html);
+    return await parseAdjectiveWebpage(html);
   } catch {
     throw new UnparsableWordError(adjective);
   }
