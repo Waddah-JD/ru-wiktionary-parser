@@ -1,10 +1,16 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+
+- Types description to the `README` file
+
 ## [0.3.1] - 2025-09-21
 
 ### Fixed
 
-- README documentation
+- `README` documentation
 
 ### Changed
 
