@@ -1,12 +1,16 @@
 import { JSDOM } from "jsdom";
 
+import { UnparsableWordError } from "./errors.js";
 import { Noun } from "./types.js";
 import { getAccentedWord, getWebpageHtmlContent } from "./utils/wiktionary.js";
 
 async function parseNoun(noun: string): Promise<Noun> {
-  const html = await getWebpageHtmlContent(noun);
-
-  return parseNounWebpage(html);
+  try {
+    const html = await getWebpageHtmlContent(noun);
+    return parseNounWebpage(html);
+  } catch {
+    throw new UnparsableWordError(noun);
+  }
 }
 
 export default parseNoun;

@@ -1,13 +1,17 @@
 import { JSDOM } from "jsdom";
 
+import { UnparsableWordError } from "./errors.js";
 import { Verb } from "./types.js";
 import { getRussianFutureTenseFromImperfectiveForm } from "./utils/ru.js";
 import { getAccentedWord, getWebpageHtmlContent } from "./utils/wiktionary.js";
 
 async function parseVerb(verb: string): Promise<Verb> {
-  const html = await getWebpageHtmlContent(verb);
-
-  return parseVerbWebpage(html);
+  try {
+    const html = await getWebpageHtmlContent(verb);
+    return parseVerbWebpage(html);
+  } catch {
+    throw new UnparsableWordError(verb);
+  }
 }
 
 export default parseVerb;

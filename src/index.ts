@@ -1,6 +1,7 @@
+import { UnparsableWordError } from "./errors.js";
 import parseAdjective from "./parseAdjective.js";
 import parseNoun from "./parseNoun.js";
 import parseVerb from "./parseVerb.js";
 
-export { parseAdjective, parseNoun, parseVerb };
+export { parseAdjective, parseNoun, parseVerb, UnparsableWordError };
 export { Adjective, Noun, Verb } from "./types.js";

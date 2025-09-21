@@ -1,12 +1,16 @@
 import { JSDOM } from "jsdom";
 
+import { UnparsableWordError } from "./errors.js";
 import { Adjective } from "./types.js";
 import { getAccentedWord, getWebpageHtmlContent } from "./utils/wiktionary.js";
 
 async function parseAdjective(adjective: string): Promise<Adjective> {
-  const html = await getWebpageHtmlContent(adjective);
-
-  return parseAdjectiveWebpage(html);
+  try {
+    const html = await getWebpageHtmlContent(adjective);
+    return parseAdjectiveWebpage(html);
+  } catch {
+    throw new UnparsableWordError(adjective);
+  }
 }
 
 export default parseAdjective;
