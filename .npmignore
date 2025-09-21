@@ -5,7 +5,9 @@ bin
 node_modules
 src
 tests
+.gitattributes
 .gitignore
+.prettierignore
 .prettierrc.json
 CHANGELOG.md
 eslint.config.js
