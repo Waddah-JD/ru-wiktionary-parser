@@ -1,10 +1,14 @@
 # Changelog
 
-## [Unreleased]
+## [0.3.1] - 2025-09-21
 
 ### Fixed
 
 - README documentation
+
+### Changed
+
+- `.npmignore` list
 
 ## [0.3.0] - 2025-09-21
 
