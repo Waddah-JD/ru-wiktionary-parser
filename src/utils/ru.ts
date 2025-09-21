@@ -1,6 +1,6 @@
-import { VerbConjugation } from "../types.js";
+import { Verb } from "../types.js";
 
-export function getRussianFutureTenseFromImperfectiveForm(infinitive: string): VerbConjugation["future"] {
+export function getRussianFutureTenseFromImperfectiveForm(infinitive: string): Verb["conjugation"]["future"] {
   return {
     singular1st: `бу́ду ${infinitive}`,
     singular2nd: `бу́дешь ${infinitive}`,

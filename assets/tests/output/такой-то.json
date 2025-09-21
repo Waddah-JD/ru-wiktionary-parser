@@ -1,18 +1,21 @@
 {
-  "nominative": { "masculine": "тако́й-то", "feminine": "така́я-то", "neuter": "тако́е-то", "plural": "таки́е-то" },
-  "genitive": { "masculine": "тако́го-то", "feminine": "тако́й-то", "neuter": "тако́го-то", "plural": "таки́х-то" },
-  "dative": { "masculine": "тако́му-то", "feminine": "тако́й-то", "neuter": "тако́му-то", "plural": "таки́м-то" },
-  "accusative": {
-    "masculine": { "animate": "тако́го-то", "inanimate": "тако́й-то" },
-    "feminine": "таку́ю-то",
-    "neuter": "тако́е-то",
-    "plural": { "animate": "таки́х-то", "inanimate": "таки́е-то" }
-  },
-  "instrumental": {
-    "masculine": "таки́м-то",
-    "feminine": ["тако́й-то", "тако́ю-то"],
-    "neuter": "таки́м-то",
-    "plural": "таки́ми-то"
-  },
-  "prepositional": { "masculine": "тако́м-то", "feminine": "тако́й-то", "neuter": "тако́м-то", "plural": "таки́х-то" }
+  "accented": "тако́й-то",
+  "declension": {
+    "nominative": { "masculine": "тако́й-то", "feminine": "така́я-то", "neuter": "тако́е-то", "plural": "таки́е-то" },
+    "genitive": { "masculine": "тако́го-то", "feminine": "тако́й-то", "neuter": "тако́го-то", "plural": "таки́х-то" },
+    "dative": { "masculine": "тако́му-то", "feminine": "тако́й-то", "neuter": "тако́му-то", "plural": "таки́м-то" },
+    "accusative": {
+      "masculine": { "animate": "тако́го-то", "inanimate": "тако́й-то" },
+      "feminine": "таку́ю-то",
+      "neuter": "тако́е-то",
+      "plural": { "animate": "таки́х-то", "inanimate": "таки́е-то" }
+    },
+    "instrumental": {
+      "masculine": "таки́м-то",
+      "feminine": ["тако́й-то", "тако́ю-то"],
+      "neuter": "таки́м-то",
+      "plural": "таки́ми-то"
+    },
+    "prepositional": { "masculine": "тако́м-то", "feminine": "тако́й-то", "neuter": "тако́м-то", "plural": "таки́х-то" }
+  }
 }

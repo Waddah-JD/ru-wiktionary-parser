@@ -1,33 +1,36 @@
 {
-  "past": {
-    "masculine": "уходи́л",
-    "feminine": "уходи́ла",
-    "neuter": "уходи́ло",
-    "plural": "уходи́ли"
-  },
-  "present": {
-    "singular1st": "ухожу́",
-    "singular2nd": "ухо́дишь",
-    "singular3rd": "ухо́дит",
-    "plural1st": "ухо́дим",
-    "plural2nd": "ухо́дите",
-    "plural3rd": "ухо́дят"
-  },
-  "future": {
-    "singular1st": "бу́ду уходи́ть",
-    "singular2nd": "бу́дешь уходи́ть",
-    "singular3rd": "бу́дет уходи́ть",
-    "plural1st": "бу́дем уходи́ть",
-    "plural2nd": "бу́дете уходи́ть",
-    "plural3rd": "бу́дут уходи́ть"
-  },
-  "imperative": {
-    "singular": "уходи́",
-    "plural": "уходи́те"
-  },
-  "participles": {
-    "active": { "past": "уходи́вший", "present": "уходя́щий" },
-    "adverbial": { "past": ["уходи́в", "уходи́вши"], "present": "уходя́" },
-    "passive": { "past": null, "present": null }
+  "accented": "уходи́ть",
+  "conjugation": {
+    "past": {
+      "masculine": "уходи́л",
+      "feminine": "уходи́ла",
+      "neuter": "уходи́ло",
+      "plural": "уходи́ли"
+    },
+    "present": {
+      "singular1st": "ухожу́",
+      "singular2nd": "ухо́дишь",
+      "singular3rd": "ухо́дит",
+      "plural1st": "ухо́дим",
+      "plural2nd": "ухо́дите",
+      "plural3rd": "ухо́дят"
+    },
+    "future": {
+      "singular1st": "бу́ду уходи́ть",
+      "singular2nd": "бу́дешь уходи́ть",
+      "singular3rd": "бу́дет уходи́ть",
+      "plural1st": "бу́дем уходи́ть",
+      "plural2nd": "бу́дете уходи́ть",
+      "plural3rd": "бу́дут уходи́ть"
+    },
+    "imperative": {
+      "singular": "уходи́",
+      "plural": "уходи́те"
+    },
+    "participles": {
+      "active": { "past": "уходи́вший", "present": "уходя́щий" },
+      "adverbial": { "past": ["уходи́в", "уходи́вши"], "present": "уходя́" },
+      "passive": { "past": null, "present": null }
+    }
   }
 }

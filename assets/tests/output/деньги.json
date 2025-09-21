@@ -1,10 +1,13 @@
 {
-  "nominative": { "singular": null, "plural": "де́ньги" },
-  "genitive": { "singular": null, "plural": "де́нег" },
-  "dative": { "singular": null, "plural": "деньга́м" },
-  "accusative": { "singular": null, "plural": "де́ньги" },
-  "instrumental": { "singular": null, "plural": "деньга́ми" },
-  "prepositional": { "singular": null, "plural": "деньга́х" },
-  "locative": null,
-  "partitive": null
+  "accented": "де́ньги",
+  "declension": {
+    "nominative": { "singular": null, "plural": "де́ньги" },
+    "genitive": { "singular": null, "plural": "де́нег" },
+    "dative": { "singular": null, "plural": "деньга́м" },
+    "accusative": { "singular": null, "plural": "де́ньги" },
+    "instrumental": { "singular": null, "plural": "деньга́ми" },
+    "prepositional": { "singular": null, "plural": "деньга́х" },
+    "locative": null,
+    "partitive": null
+  }
 }

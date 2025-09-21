@@ -1,10 +1,13 @@
 {
-  "nominative": { "singular": "земля́", "plural": "зе́мли" },
-  "genitive": { "singular": "земли́", "plural": "земе́ль" },
-  "dative": { "singular": "земле́", "plural": "зе́млям" },
-  "accusative": { "singular": "зе́млю", "plural": "зе́мли" },
-  "instrumental": { "singular": "землёй", "plural": "зе́млями" },
-  "prepositional": { "singular": "земле́", "plural": "зе́млях" },
-  "locative": null,
-  "partitive": null
+  "accented": "земля́",
+  "declension": {
+    "nominative": { "singular": "земля́", "plural": "зе́мли" },
+    "genitive": { "singular": "земли́", "plural": "земе́ль" },
+    "dative": { "singular": "земле́", "plural": "зе́млям" },
+    "accusative": { "singular": "зе́млю", "plural": "зе́мли" },
+    "instrumental": { "singular": "землёй", "plural": "зе́млями" },
+    "prepositional": { "singular": "земле́", "plural": "зе́млях" },
+    "locative": null,
+    "partitive": null
+  }
 }

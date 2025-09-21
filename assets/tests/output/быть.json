@@ -1,25 +1,28 @@
 {
-  "past": { "masculine": "бы́л", "feminine": "была́", "neuter": "бы́ло", "plural": "бы́ли" },
-  "present": {
-    "singular1st": "есть",
-    "singular2nd": "есть",
-    "singular3rd": "есть",
-    "plural1st": "есть",
-    "plural2nd": "есть",
-    "plural3rd": "есть"
-  },
-  "future": {
-    "singular1st": "бу́ду",
-    "singular2nd": "бу́дешь",
-    "singular3rd": "бу́дет",
-    "plural1st": "бу́дем",
-    "plural2nd": "бу́дете",
-    "plural3rd": "бу́дут"
-  },
-  "imperative": { "singular": "бу́дь", "plural": "бу́дьте" },
-  "participles": {
-    "active": { "past": "бы́вший", "present": "су́щий" },
-    "passive": { "past": null, "present": null },
-    "adverbial": { "past": ["бы́в", "бы́вши"], "present": "бу́дучи" }
+  "accented": "быть",
+  "conjugation": {
+    "past": { "masculine": "бы́л", "feminine": "была́", "neuter": "бы́ло", "plural": "бы́ли" },
+    "present": {
+      "singular1st": "есть",
+      "singular2nd": "есть",
+      "singular3rd": "есть",
+      "plural1st": "есть",
+      "plural2nd": "есть",
+      "plural3rd": "есть"
+    },
+    "future": {
+      "singular1st": "бу́ду",
+      "singular2nd": "бу́дешь",
+      "singular3rd": "бу́дет",
+      "plural1st": "бу́дем",
+      "plural2nd": "бу́дете",
+      "plural3rd": "бу́дут"
+    },
+    "imperative": { "singular": "бу́дь", "plural": "бу́дьте" },
+    "participles": {
+      "active": { "past": "бы́вший", "present": "су́щий" },
+      "passive": { "past": null, "present": null },
+      "adverbial": { "past": ["бы́в", "бы́вши"], "present": "бу́дучи" }
+    }
   }
 }

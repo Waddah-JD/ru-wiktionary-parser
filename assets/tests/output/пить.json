@@ -1,30 +1,33 @@
 {
-  "past": {
-    "masculine": "пи́л",
-    "feminine": "пила́",
-    "neuter": "пи́ло",
-    "plural": "пи́ли"
-  },
-  "present": {
-    "singular1st": "пью́",
-    "singular2nd": "пьёшь",
-    "singular3rd": "пьёт",
-    "plural1st": "пьём",
-    "plural2nd": "пьёте",
-    "plural3rd": "пью́т"
-  },
-  "future": {
-    "singular1st": "бу́ду пи́ть",
-    "singular2nd": "бу́дешь пи́ть",
-    "singular3rd": "бу́дет пи́ть",
-    "plural1st": "бу́дем пи́ть",
-    "plural2nd": "бу́дете пи́ть",
-    "plural3rd": "бу́дут пи́ть"
-  },
-  "imperative": { "singular": "пе́й", "plural": "пе́йте" },
-  "participles": {
-    "active": { "past": "пи́вший", "present": "пью́щий" },
-    "passive": { "past": "пи́тый", "present": null },
-    "adverbial": { "past": ["пи́в", "пи́вши"], "present": null }
+  "accented": "пить",
+  "conjugation": {
+    "past": {
+      "masculine": "пи́л",
+      "feminine": "пила́",
+      "neuter": "пи́ло",
+      "plural": "пи́ли"
+    },
+    "present": {
+      "singular1st": "пью́",
+      "singular2nd": "пьёшь",
+      "singular3rd": "пьёт",
+      "plural1st": "пьём",
+      "plural2nd": "пьёте",
+      "plural3rd": "пью́т"
+    },
+    "future": {
+      "singular1st": "бу́ду пи́ть",
+      "singular2nd": "бу́дешь пи́ть",
+      "singular3rd": "бу́дет пи́ть",
+      "plural1st": "бу́дем пи́ть",
+      "plural2nd": "бу́дете пи́ть",
+      "plural3rd": "бу́дут пи́ть"
+    },
+    "imperative": { "singular": "пе́й", "plural": "пе́йте" },
+    "participles": {
+      "active": { "past": "пи́вший", "present": "пью́щий" },
+      "passive": { "past": "пи́тый", "present": null },
+      "adverbial": { "past": ["пи́в", "пи́вши"], "present": null }
+    }
   }
 }

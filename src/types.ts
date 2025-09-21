@@ -1,4 +1,8 @@
-export type VerbConjugation = {
+type WordBase = {
+  accented: string;
+};
+
+type VerbConjugation = {
   past: {
     masculine: string | null;
     feminine: string | null;
@@ -32,7 +36,7 @@ export type VerbConjugation = {
   };
 };
 
-export type AdjectiveDeclension = {
+type AdjectiveDeclension = {
   nominative: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
   genitive: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
   dative: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
@@ -46,7 +50,7 @@ export type AdjectiveDeclension = {
   prepositional: { masculine: string | null; feminine: string | null; neuter: string | null; plural: string | null };
 };
 
-export type NounDeclension = {
+type NounDeclension = {
   nominative: { singular: string | null; plural: string | null };
   genitive: { singular: string | null; plural: string | null };
   dative: { singular: string | null; plural: string | null };
@@ -55,4 +59,16 @@ export type NounDeclension = {
   prepositional: { singular: string | null; plural: string | null };
   partitive: string | null;
   locative: string | null;
+};
+
+export type Verb = WordBase & {
+  conjugation: VerbConjugation;
+};
+
+export type Adjective = WordBase & {
+  declension: AdjectiveDeclension;
+};
+
+export type Noun = WordBase & {
+  declension: NounDeclension;
 };

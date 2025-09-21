@@ -1,10 +1,13 @@
 {
-  "nominative": { "singular": "ча́й", "plural": "чаи́" },
-  "genitive": { "singular": "ча́я", "plural": "чаёв" },
-  "dative": { "singular": "ча́ю", "plural": "чая́м" },
-  "accusative": { "singular": "ча́й", "plural": "чаи́" },
-  "instrumental": { "singular": "ча́ем", "plural": "чая́ми" },
-  "prepositional": { "singular": "ча́е", "plural": "чая́х" },
-  "locative": "в чаю́",
-  "partitive": "ча́ю"
+  "accented": "чай",
+  "declension": {
+    "nominative": { "singular": "ча́й", "plural": "чаи́" },
+    "genitive": { "singular": "ча́я", "plural": "чаёв" },
+    "dative": { "singular": "ча́ю", "plural": "чая́м" },
+    "accusative": { "singular": "ча́й", "plural": "чаи́" },
+    "instrumental": { "singular": "ча́ем", "plural": "чая́ми" },
+    "prepositional": { "singular": "ча́е", "plural": "чая́х" },
+    "locative": "в чаю́",
+    "partitive": "ча́ю"
+  }
 }

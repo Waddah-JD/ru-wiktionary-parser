@@ -1,10 +1,13 @@
 {
-  "nominative": { "singular": "челове́к", "plural": "лю́ди" },
-  "genitive": { "singular": "челове́ка", "plural": "люде́й" },
-  "dative": { "singular": "челове́ку", "plural": "лю́дям" },
-  "accusative": { "singular": "челове́ка", "plural": "люде́й" },
-  "instrumental": { "singular": "челове́ком", "plural": "людьми́" },
-  "prepositional": { "singular": "челове́ке", "plural": "лю́дях" },
-  "locative": null,
-  "partitive": null
+  "accented": "челове́к",
+  "declension": {
+    "nominative": { "singular": "челове́к", "plural": "лю́ди" },
+    "genitive": { "singular": "челове́ка", "plural": "люде́й" },
+    "dative": { "singular": "челове́ку", "plural": "лю́дям" },
+    "accusative": { "singular": "челове́ка", "plural": "люде́й" },
+    "instrumental": { "singular": "челове́ком", "plural": "людьми́" },
+    "prepositional": { "singular": "челове́ке", "plural": "лю́дях" },
+    "locative": null,
+    "partitive": null
+  }
 }
