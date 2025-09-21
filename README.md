@@ -5,13 +5,14 @@ Russian-Language Wiktionary parser
 ## Documentation
 
 ```ts
-import { parseAdjective, parseNoun, parseVerb, Adjective, Noun, Verb } from "ru-wiktionary-parser";
+import { parseAdjective, parseNoun, parseVerb } from "ru-wiktionary-parser";
+import type { Adjective, Noun, Verb } from "ru-wiktionary-parser";
 
-function parseAdjective(adjective: string): Promise<AdjectiveDeclension>;
+function parseAdjective(adjective: string): Promise<Adjective>;
 
-function parseNoun(noun: string): Promise<NounDeclension>;
+function parseNoun(noun: string): Promise<Noun>;
 
-function parseVerb(verb: string): Promise<VerbConjugation>;
+function parseVerb(verb: string): Promise<Verb>;
 ```
 
 Note: `parseAdjective` could be used not only with actual adjectives but with adjective-like parts-of-speech for example with pronouns (example: `который`, `свой`..), adverbs (example: `такой` ..) and others..

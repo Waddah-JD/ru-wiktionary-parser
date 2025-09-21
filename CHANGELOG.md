@@ -1,5 +1,11 @@
 # Changelog
 
+## [Unreleased]
+
+### Fixed
+
+- README documentation
+
 ## [0.3.0] - 2025-09-21
 
 ### Added
