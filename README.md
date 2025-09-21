@@ -93,4 +93,4 @@ type Noun = {
 };
 ```
 
-for more details check `*.d.ts` files
+for more details check `*.d.ts` files, mainly `build/types.d.ts`
